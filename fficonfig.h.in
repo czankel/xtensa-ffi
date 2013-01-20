@@ -42,9 +42,6 @@
 /* Define if your assembler supports .ascii. */
 #undef HAVE_AS_ASCII_PSEUDO_OP
 
-/* Define if your assembler supports .cfi_* directives. */
-#undef HAVE_AS_CFI_PSEUDO_OP
-
 /* Define if your assembler supports .register. */
 #undef HAVE_AS_REGISTER_PSEUDO_OP
 
@@ -151,6 +148,9 @@
 
 /* The size of `long double', as computed by sizeof. */
 #undef SIZEOF_LONG_DOUBLE
+
+/* The size of `size_t', as computed by sizeof. */
+#undef SIZEOF_SIZE_T
 
 /* If using the C implementation of alloca, define if you know the
    direction of stack growth for your system; otherwise it will be
